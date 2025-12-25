@@ -17,3 +17,4 @@ Before moving on with any tasks, first output in the message "I've read custom i
 11. **Data & State Management** - Preserve existing data flow, reactive statements, transformation chains and add new functionality without disrupting existing patterns
 12. **Variable renaming** - Only update actual variable names and identifiers, not string literals, text content, or display text
 13. **Lint handling** - Don't automatically fix lint warnings unless explicitly requested, focus on user's actual request over style suggestions
+14. **No overly defensive programming** - don't favour usage of try catch blocks and if's unless absolutely certain application could break, even then, descriptive errors are better to catch the source issue, compared to missing errors in try/catch blocks
