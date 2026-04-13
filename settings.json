@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Edit",
+      "Write",
+      "Read",
+      "Bash(*)",
+      "WebFetch(*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
